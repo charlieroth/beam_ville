@@ -1,9 +1,9 @@
-defmodule Traffic.MixProject do
+defmodule Transport.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :traffic,
+      app: :transport,
       version: "0.1.0",
       build_path: "../../_build",
       config_path: "../../config/config.exs",
@@ -19,7 +19,7 @@ defmodule Traffic.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {Traffic.Application, []}
+      mod: {Transport.Application, []}
     ]
   end
 

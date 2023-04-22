@@ -1,6 +1,6 @@
-defmodule Traffic do
+defmodule Transport do
   @moduledoc """
-  Documentation for `Traffic`.
+  Documentation for `Transport`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Traffic do
 
   ## Examples
 
-      iex> Traffic.hello()
+      iex> Transport.hello()
       :world
 
   """
